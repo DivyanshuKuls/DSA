@@ -14,6 +14,7 @@ using namespace std;
 /* 
     Method 1 (Using Two for loops)
     Time Complexity = O(N^2)
+    It is not a better solution
 */
 
 
@@ -34,6 +35,7 @@ bool twoSum(int arr[], int arraySize, int targettedSum) {
     Time Complexity = O(NlogN) + O(N) = O(NlogN)
     where O(NlogN) is the time complexity of sort function in stl and O(N) is the time complexity of twoSum2PointerApproach 
     func
+    It is the efficient solution
 */
 
 bool twoSum2PointerApproach(int arr[], int arraySize, int targettedSum) {
