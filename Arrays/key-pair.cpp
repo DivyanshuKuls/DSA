@@ -32,7 +32,8 @@ bool twoSum(int arr[], int arraySize, int targettedSum) {
 /* 
     Method 2 (Two Pointer Approach for sorted array in ascending order)
     Time Complexity = O(NlogN) + O(N) = O(NlogN)
-    where O(NlogN) is the time complexity of sort function in stl and O(N) is the time complexity of twoSum2PointerApproach func
+    where O(NlogN) is the time complexity of sort function in stl and O(N) is the time complexity of twoSum2PointerApproach 
+    func
 */
 
 bool twoSum2PointerApproach(int arr[], int arraySize, int targettedSum) {
